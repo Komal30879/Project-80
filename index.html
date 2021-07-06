@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <title>Guest list</title>
+    </head>
+    <body>
+        <center>
+            <h1>Guest list</h1>
+            <span><input type="text" placeholder="Enter name of guests" id="guest_input"></span>
+            <button type="button" id="submit_button" onclick="submit()">Submit</button>
+            <br>
+            <hr>
+            <div id="names"></div>
+            <hr>
+            <br>
+            <h2>Guest List</h2>
+            <button type="button" id="show_button" onclick="show()">Show</button>
+            <div id="names_vertical"></div>
+            <hr>
+            <button type="button" id="sort_button" onclick="sort()">Sorted List</button>
+            <div id="sorted_names"></div>
+            <hr>
+            <span>
+                <input type="text" placeholder="Search" id="search_input">
+                <button type="button" id="search_button" onclick="search()">Search</button>
+            </span>
+            <br>
+            <div id="repeat_names">Name found 0 times</div>
+
+        </center>
+    </body>
+</html>
